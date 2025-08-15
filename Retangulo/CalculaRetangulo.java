@@ -1,6 +1,4 @@
-package Retangulo;
-
-public class CalcularRetangulo {
+public class CalculaRetangulo {
     public static void main(String[] args) {
 
         Retangulo r1 = new Retangulo(3, 5);

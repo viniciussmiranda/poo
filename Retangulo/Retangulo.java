@@ -1,15 +1,14 @@
-package Retangulo;
 public class Retangulo {
     int largura;
     int comprimento;
     int area;
 
-    Retangulo(int l, int c){
-        largura = l;
-        comprimento = c;
+    Retangulo(int largura, int comprimento){
+        this.largura = largura;
+        this.comprimento = comprimento;
     }
 
     int area() {
-        return (comprimento * largura);
+        return largura * comprimento;
         }
     };
