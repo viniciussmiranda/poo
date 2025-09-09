@@ -2,18 +2,11 @@ public class Cachorro {
     private String nome;
     private String raca;
 
-    public void latir() {
-        System.out.println("auau");
+    public Cachorro(String nome, String raca){
+        this.nome = nome;
+        this.raca = raca;
     }
-
-    public void dormir() {
-        System.out.println("zzzzzz");
-    }
-
-    public void comer() {
-        System.out.println("hummm");
-    }
-
+    
     public String getNome() {
         return nome;
     }
@@ -30,6 +23,9 @@ public class Cachorro {
         this.raca = raca;
     }
 
+    public void latir(){}
 
+    public void dormir(){}
 
+    public void comer(){}
 }
